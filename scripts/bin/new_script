@@ -1,0 +1,5 @@
+#! /bin/bash
+
+touch /home/joaquin/bin/$1
+
+chmod +x /home/joaquin/bin/$1

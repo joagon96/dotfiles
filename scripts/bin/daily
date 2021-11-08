@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+touch daily.md
+
+now=`date +'%m/%d/%Y'`
+
+echo "[$now]" > daily.md
+echo "" >> daily.md
+echo "Resumen de la mañana: " >> daily.md
+echo "" >> daily.md
+echo "Resumen de la tarde: " >> daily.md
